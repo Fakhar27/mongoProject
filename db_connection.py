@@ -1,7 +1,7 @@
 import pymongo
 from django.contrib.auth.models import User
 
-url = 'mongodb://51.20.118.87:27017'
+url = 'mongodb://52.87.189.55:27017'
 client = pymongo.MongoClient(url)
 
 db = client['NLC_TEST']
